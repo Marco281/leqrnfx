@@ -1,0 +1,211 @@
+*{
+padding: 0;
+margin:0;
+box-sizing: border-box;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+     
+}
+body{
+ background:linear-gradient(rgba(13, 100, 158, 0.6),#0c64c9);
+height: 100vh;
+justify-content: center;
+display: flex;
+overflow: visible;
+}
+.container{
+   overflow: visible;
+position: absolute;
+text-align: justify;
+width: 100%;
+max-width: 100%;
+min-height: 100%;
+background:rgb(255, 252, 252);
+box-shadow: 2px 2 px 0px plum;
+border-radius: 13px;
+top: 234px;
+
+min-width: 10%;
+margin-right: -8px;
+
+}
+.container .form{
+ padding: 30px;
+}
+.container .form .title{
+ font-size: 26px;
+ font-weight: 600;
+ color: rgba(6, 121, 253, 0.459);
+ position: relative;
+}
+
+.form .input-field{
+height: 50px;
+position: relative;
+margin-top: 30px;
+
+
+}
+.input-field input{
+   margin-left: -39px;
+height: 100%;
+width: 100%;
+position: static;
+padding: 0 35px;
+border: none;
+outline: none;
+border-bottom: 2px solid #ccc;
+border-top: 9px solid transparent;
+font-size: 12px;
+}
+.input-field input:is(:focus, :valid) {
+border-bottom-color: #1313b9;
+
+
+                                                  
+ }
+ .label{
+color: #6e8f94;
+font-size: 14px;
+text-align: center;
+position: relative;
+bottom: 5px;
+right: 19px;
+}
+.checkbox-text{
+padding: 0;
+margin: 0;
+bottom: 56px;
+font-size: 2px;
+}
+.image .text{
+text-decoration: none;
+color: blue;
+right: -150px;
+position: relative;
+bottom:  26px ;
+font-size: 15px;
+}
+.sign-up{
+color: #0839db;
+font-size: 14px;
+position: relative;
+top: 5px;
+right: 2px;
+}
+.sign-up .text{
+text-decoration: none;
+color: #2929eb;
+position: relative;
+right: -5px;
+}
+.sign-up .text:hover{
+color: #e91555;
+}
+ .checkbox-text  input{
+width: 60px;
+height: 14px;
+position: relative;
+border-radius: 3px;
+top: -4px;
+}
+.reset input{
+height: 25px;
+position: relative;
+background-color: rgb(171, 179, 160);
+right: -10px;
+border-radius: 8px 2px 3px;
+}
+ .reset{
+font-size: 3px;
+position: relative;
+cursor: pointer;
+}
+.reset:hover{
+color: aliceblue;
+background-color: rgb(2, 60, 248);
+transition: 0.5s;
+}
+.reset{
+font-size: 13px;
+position: absolute;
+border: 12px#1515e9;
+border-radius: 12px;
+color: brown;
+width: 43px;
+}
+.checkbox{
+left: -7px;
+top: 896px;
+position: relative;
+}
+.para{
+color: #ffffff;
+position: absolute;
+top: 32px;
+font-size: 23px;
+text-align: center;
+background-color: #3e169c;
+
+}
+.btn{
+height: 32px;
+width:  238px;
+position: relative;
+background-color: rgb(24, 21, 218);
+border-radius: 13px;
+border: none;
+font-size: 23px;
+cursor: pointer;
+padding: 23px;
+top: -4px;
+right: -43px;
+
+}
+.btn:hover{
+color: aliceblue;
+background-color: rgb(226, 212, 7);
+transition: 1s;
+}
+a{
+text-decoration: none;
+}
+.input-field input{
+text-decoration: double;
+}
+.terms{
+position: relative;
+font-size: 14px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: rgb(0, 9, 90);
+font-weight: 600;
+top: -10px;
+}
+.terms a{
+color: #1515e9;
+text-decoration: underline;
+}
+.terms a:hover{
+color: rgb(168, 56, 56);
+}
+.hide{
+text-decoration: rgb(85, 129, 85);
+input-security: ;
+}
+.image{
+position:absolute;
+overflow: visible;
+}
+.bty{
+   position: relative;
+   text-align: ;
+   color: #ffffff;
+   font-size: 23px;
+   text-align: center;
+   top: -14px;
+  font-size: 13px;
+  box-sizing: content-box;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
